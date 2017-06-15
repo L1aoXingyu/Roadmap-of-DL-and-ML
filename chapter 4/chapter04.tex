@@ -83,4 +83,50 @@ Gini(D)反映了数据集中随机两个样本标定不一致的概率，所以G
 （1）预剪枝实在决策树生成过程中对每个节点在划分前进行估计；
 
 （2）后剪枝是先训练一个完整的决策树，然后自底向上对非叶节点进行考察
+
+\section{连续与缺失值}
+
+\subsection{连续值处理}
+最简单的策略是采用二分法对连续属性进行处理，给定样本集D利用连续属性a，假定a在D上出现了n个不同的取值，将这些信息从小到大排序，记为$\{ a^1, a^2, \cdots a^n \}$，基于划分点t可将D分为$D_{t}^{-}$和$D_{t}^{+}$，分别表示在a上取值不大于t和大于t的样本，对于相邻属性取值$a^i$和$a^{i+1}$来说，t在区间$[a^i , a^{i+1})$中任意取值产生的划分都相同，所以对连续属性a，我们考察包括n-1个元素的候选划分点集合
+
+\begin{equation}
+T_a = \{ \frac{a^i + a^{i+1}}{2}\  | 1 \leq i \leq n-1 \}
+\end{equation}
+
+将区间$[a^i , a^{i+1})$的中点$\frac{a^i + a^{i+1}}{2}$作为候选划分点.
+
+\begin{equation}
+  \begin{split}
+  Gain(D, a) &= \mathop{\max}_{t \in T_a} Gain(D, a, t) \\
+  &= \mathop{\max}_{t \in T_a} Ent(D) - \sum_{\lambda \in \{-, + \}} \frac{| D_{t}^{\lambda} |}{|D|} Ent(D_{t}^{\lambda})
+  \end{split}
+\end{equation}
+
+\subsection{缺失值处理}
+现实任务中会遇到不完整的样本，如果简单放弃不完整样本，对数据造成极大地浪费。
+
+我们需要解决两个问题：（1）如何在属性值确实的情况下进行划分属性选择？（2）给定划分属性，如样本在该属性上的值缺失，如何对样本进行划分？
+
+给定训练集D和属性a，令$\tilde{D}$表示D中在属性a上没有缺失值的样本子集，假定a有V个可取值$\{ a^1, a^2, \cdots, a^V \}$，令$\tilde{D}^v$表示$\tilde{D}$中在属性a上取值为$a^v$的样本子集，$\tilde{D}_k$表示$\tilde{D}$中属于第k类的样本子集，假定每个样本$x$赋予一个权重$w_x$，并定义
+\begin{equation}
+  \rho = \frac{\sum_{x \in \tilde{D}}w_x}{\sum_{x \in D}w_x}
+\end{equation}
+
+\begin{equation}
+  \tilde{\rho_k} = \frac{\sum_{x \in \tilde{D}_k}w_x}{\sum_{x \in \tilde{D}}w_x}
+\end{equation}
+
+\begin{equation}
+  \rho = \frac{\sum_{x \in \tilde{D}}w_x}{\sum_{x \in D}w_x}
+\end{equation}
+
+我们可以将信息增益的计算式推广为
+\begin{equation}
+  \begin{split}
+  Gain(D, a) &= \rho \times Gain(\tilde{D}, a) \\
+  &= \rho \times (Ent(\tilde{D}) - \sum_{v=1}^{V} \tilde{r}_v Ent(\tilde{D}^v))
+\end{split}
+\end{equation}
+
+若样本$x$在划分属性a上的取值已知，直接将其划入对应子结点，且样本权值在子结点保持$w_x$.若样本$x$在划分属性a上取值未知，将$x$同时划入所有子结点，且样本权重在与属性值$a^v$对应的子结点中调整为$\tilde{r}_v \cdot w_x$
 \end{document}
