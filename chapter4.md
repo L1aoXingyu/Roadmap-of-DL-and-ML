@@ -92,7 +92,7 @@ $$= \mathop{\max}_{t \in T_a} Ent(D) - \sum_{\lambda \in \{-, + \}} \frac{| D_{t
 
 $$ \rho = \frac{\sum_{x \in \tilde{D}}w_x}{\sum_{x \in D}w_x}$$
 
-$$ \tilde{\rho_k} = \frac{\sum_{x \in \tilde{D}_k}w_x}{\sum_{x \in \tilde{D}} w_x}$$
+$$ \tilde{\rho_k} = \frac{\sum_{x \in \tilde{D}_k} w_x}{\sum_{x \in \tilde{D}} w_x}$$
 
 $$ \rho = \frac{\sum_{x \in \tilde{D}}w_x}{\sum_{x \in D}w_x}$$
 
