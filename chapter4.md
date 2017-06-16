@@ -107,6 +107,6 @@ $$= \rho \times (Ent(\tilde{D}) - \sum_{v=1}^{V} \tilde{r}_v Ent(\tilde{D}^v))$$
 
 ### 4.5 多变量决策树
 
-单变量决策树分类边界与轴平行(axis-parallel)，但是在真实边界比较复杂的时候需要很多段划分才能得到较好的近似，而“多变量决策树”(multivariate decision tree)就能够实现“斜划分”。其不再是针对某个属性，而是针对属性的线性组合进行测试，每个非叶子结点是一个形如$\sum{i=1}^d w_i a_i = t$的线性分类器。
+单变量决策树分类边界与轴平行(axis-parallel)，但是在真实边界比较复杂的时候需要很多段划分才能得到较好的近似，而“多变量决策树”(multivariate decision tree)就能够实现“斜划分”。其不再是针对某个属性，而是针对属性的线性组合进行测试，每个非叶子结点是一个形如$\sum_{i=1}^d w_i a_i = t$的线性分类器。
 
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/3623720-acf78d93c279d4bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
