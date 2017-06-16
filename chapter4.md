@@ -1,4 +1,4 @@
-## $$x = y$$4. 决策树
+## $$$$4. 决策树
 
 ### 4.1 基本流程
 
@@ -81,9 +81,9 @@ $$T_a = \{ \frac{a^i + a^{i+1}}{2}\  | 1 \leq i \leq n-1 \}$$
 
 $$ Gain(D, a) = \mathop{\max}_{t \in T_a} Gain(D, a, t) $$
 
-```
-                    $$= \mathop{\max}_{t \in T_a} Ent(D) - \sum_{\lambda \in \{-, + \}} \frac{| D_{t}^{\lambda} |}{|D|} Ent(D_{t}^{\lambda})$$
-```
+$$= \mathop{\max}_{t \in T_a} Ent(D) - \sum_{\lambda \in \{-, + \}} \frac{| D_{t}^{\lambda} |}{|D|} Ent(D_{t}^{\lambda})$$
+
+
 
 #### 4.4.2 缺失值处理
 
@@ -103,9 +103,9 @@ $$ \rho = \frac{\sum_{x \in \tilde{D}}w_x}{\sum_{x \in D}w_x}$$
 
 $$ Gain(D, a) = \rho \times Gain(\tilde{D}, a) $$
 
-```
-                    $$= \rho \times (Ent(\tilde{D}) - \sum_{v=1}^{V} \tilde{r}_v Ent(\tilde{D}^v))$$
-```
+$$= \rho \times (Ent(\tilde{D}) - \sum_{v=1}^{V} \tilde{r}_v Ent(\tilde{D}^v))$$
+
+
 
 若样本$$x$$在划分属性a上的取值已知，直接将其划入对应子结点，且样本权值在子结点保持$$w_x$$.若样本$x$在划分属性a上取值未知，将$$x$$同时划入所有子结点，且样本权重在与属性值$a^v$对应的子结点中调整为$$\tilde{r}_v \cdot w_x$$
 
