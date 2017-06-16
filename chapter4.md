@@ -27,13 +27,13 @@ $$  Gain(D, a) = Ent(D) - \sum_{v=1}^{V} \frac{|D^v|}{|D|}Ent(D^v)$$
 
 信息增益越大，说明使用属性a划分获得的“纯度提升”越大，所以选择属性可以通过下面的公式来得到
 
-$$    a_{*} = \mathop{\arg\max}_{a \in A} \ \ Gain(D, a)$$
+$$ a_* = \mathop{\arg\max}_{a \in A} \ \ Gain(D, a) $$
 
 #### 4.2.2 增益率
 
 信息增益对取值数目较多的属性有所偏好，为了减少这种偏好带来的影响，使用“增益率”\(gain ratio\)来选择最优划分属性。
 
-$$  Gain \ ratio(D, a) = \frac{Gain(D, a)}{IV(a)}$$
+$$ Gain \ ratio(D, a) = \frac{Gain(D, a)}{IV(a)}$$
 
 其中
 
@@ -110,6 +110,3 @@ $$= \rho \times (Ent(\tilde{D}) - \sum_{v=1}^{V} \tilde{r}_v Ent(\tilde{D}^v))$$
 若样本$$x$$在划分属性a上的取值已知，直接将其划入对应子结点，且样本权值在子结点保持$$w_x$$.若样本$x$在划分属性a上取值未知，将$$x$$同时划入所有子结点，且样本权重在与属性值$a^v$对应的子结点中调整为$$\tilde{r}_v \cdot w_x$$
 
 ---
-
-
-
