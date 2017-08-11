@@ -14,6 +14,15 @@ I would continue adding some items to this roadmap. If you have something to rec
 
 # course
 
+## CS 20SI:  TensorFlow for Deep Learning Research
+This course will cover the fundamentals and contemporary usage of the Tensorflow library for deep learning research. We aim to help students understand the graphical computational model of Tensorflow, explore the functions it has to offer, and learn how to build and structure models best suited for a deep learning project. Through the course, students will use Tensorflow to build models of different complexity, from simple linear/logistic regression to convolutional neural network and recurrent neural networks with LSTM to solve tasks such as word embeddings, translation, optical character recognition. Students will also learn best practices to structure a model and manage research experiments.
+
+[course site](https://web.stanford.edu/class/cs20si/)
+
+[github](https://github.com/chiphuyen/stanford-tensorflow-tutorials)
+
+[video list](https://www.youtube.com/watch?v=g-EvyKpZjmQ&index=1&list=PLSPPwKHXGS2110rEaNH7amFGmaD5hsObs)
+
 ## Numeraical Linear Algebra
 This course is focused on the question: **How do we do matrix computations with acceptable speed and acceptable accuracy?**
 

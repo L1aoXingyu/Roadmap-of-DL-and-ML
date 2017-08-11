@@ -11,6 +11,15 @@
 
 # 课程
 
+## CS 20SI:  TensorFlow 做深度学习研究 
+这门课程将会覆盖在深度学习研究中使用tensorflow的基础和使用方式。我们致力于帮助学生理解tensorflow中的计算图，探索其提供的函数，学会如何建立最适合深度学习项目的结构化模型。通过这门课，学生将会学会如何用tensorflow建立不同复杂度的模型，从最简单的线性/logistic回归，到卷积神经网络，用LSTM建立循环神经网络来解决例如词嵌入，机器翻译，光学字符识别等任务。学生能够通过结构化模型和管理研究实验得到最好的体验。
+
+[course site](https://web.stanford.edu/class/cs20si/)
+
+[github](https://github.com/chiphuyen/stanford-tensorflow-tutorials)
+
+[video list](https://www.youtube.com/watch?v=g-EvyKpZjmQ&index=1&list=PLSPPwKHXGS2110rEaNH7amFGmaD5hsObs)
+
 ## 数值线性代数
 这门课程主要希望解决**我们如何能够以一个较快的速度、较高的准确率进行矩阵计算？**
 
