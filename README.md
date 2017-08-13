@@ -4,7 +4,7 @@
 
 >For a newecomer to deep learning and machine learning area, facing some much courses and resources, the first question is how to choose right books and courses to begin this trip.
 
->Here is my roadmap of machine leanring and deep leanring materials. I will put my study notes on it.
+>Here is my roadmap of machine leanring and deep leanring materials. 
 
 The roadmap includes some highly recommended courses, books and papers which can help you get into DL and ML area quickly. Maybe some materials are quite difficult, but really worth reading and studying. 
 
@@ -13,6 +13,11 @@ I would continue adding some items to this roadmap. If you have something to rec
 - - -
 
 # course
+
+## Deep Learning Specialization(by deeplearning.ai)
+There are five courses in this specialization, you will learn the foundations of Deep Learning, understand how to build neural networks, and learn how to lead successful machine learning projects.This specialization is very popular because it is taught by Andrew Ng whose course machine learning in coursera is also very popular.
+
+[course site](https://www.coursera.org/specializations/deep-learning)
 
 ## CS 20SI:  TensorFlow for Deep Learning Research
 This course will cover the fundamentals and contemporary usage of the Tensorflow library for deep learning research. We aim to help students understand the graphical computational model of Tensorflow, explore the functions it has to offer, and learn how to build and structure models best suited for a deep learning project. Through the course, students will use Tensorflow to build models of different complexity, from simple linear/logistic regression to convolutional neural network and recurrent neural networks with LSTM to solve tasks such as word embeddings, translation, optical character recognition. Students will also learn best practices to structure a model and manage research experiments.
@@ -48,6 +53,13 @@ This is an introductory course in machine learning (ML) that covers the basic th
 [course site](http://work.caltech.edu/telecourse.html)
 
 [video list](https://www.youtube.com/watch?v=mbyG85GZ0PI&list=PLD63A284B7615313A&index=1)
+
+## udacity deep learning
+We’ll show you how to train and optimize basic neural networks, convolutional neural networks, and long short term memory networks. Complete learning systems in TensorFlow will be introduced via projects and assignments. You will learn to solve new classes of problems that were once thought prohibitively challenging, and come to better appreciate the complex nature of human intelligence as you solve these same problems effortlessly using deep learning methods.
+
+[course site](https://www.udacity.com/course/deep-learning--ud730)
+
+[github](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/udacity)
 
 ## cs229
 This course provides a broad introduction to machine learning and statistical pattern recognition. It is very famous mainly because it was taught by Stanford Prof Adrew Ng.
