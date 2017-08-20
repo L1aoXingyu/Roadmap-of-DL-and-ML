@@ -14,6 +14,15 @@ I would continue adding some items to this roadmap. If you have something to rec
 
 # course
 
+## Practical Deep Learning For Coders, Part 1 & 2
+This course is designed for anyone with at least a year of coding experience, and some memory of high-school math. In the first part, you will learn how to build state of the art models without needing graduate-level math. In the second part, you'll learn the latest developments in deep learning, how to read and implement new academic papers, and how to solve challenging end-to-end problems such as natual language translation.
+
+[part1 course site](http://course.fast.ai/)
+
+[part2 course site](http://course.fast.ai/part2.html)
+
+[github](https://github.com/fastai/courses)
+
 ## Deep Learning Specialization(by deeplearning.ai)
 There are five courses in this specialization, you will learn the foundations of Deep Learning, understand how to build neural networks, and learn how to lead successful machine learning projects.This specialization is very popular because it is taught by Andrew Ng whose course machine learning in coursera is also very popular.
 
