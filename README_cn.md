@@ -101,6 +101,8 @@
 
 [course site](http://rll.berkeley.edu/deeprlcourse/)
 
+[github](https://github.com/berkeleydeeprlcourse/homework)
+
 ## 凸优化
 这么课主要是让研究生水平的学生了解到优化问题的基础，增加算法性质的理解。主要针对的是凸优化问题，虽然也会介绍一些非凸优化问题，同时也会介绍优化算法在统计和机器学习中的应用。完成这门课程之后，学生能够学会如何解决一个优化问题。
 

@@ -102,6 +102,8 @@ Deep Reinforcement Learning course by UC Berkely Prof Sergey.
 
 [course site](http://rll.berkeley.edu/deeprlcourse/)
 
+[github](https://github.com/berkeleydeeprlcourse/homework)
+
 ## Convex Optimization
 This course is designed to give a graduate-level student a thorough grounding in these properties and their role in optimization, and a broad comprehension of algorithms tailored to exploit such properties. The focus will be on convex optimization problems (though we also may touch upon nonconvex optimization problems at some points). We will visit and revisit important applications in statistics and machine learning. Upon completing the course, students should be able to approach an optimization problem.
 
