@@ -14,6 +14,15 @@ I would continue adding some items to this roadmap. If you have something to rec
 
 # course
 
+## Deep Learning for Natural Language Processing
+This is an advanced course on natural language processing. This course will be lead by Phil Blunsom and delivered in partnership with the DeepMind Natural Language Research Group. 
+
+[course site](http://www.cs.ox.ac.uk/teaching/courses/2016-2017/dl/)
+
+[video list](https://www.youtube.com/watch?v=RP3tZFcC2e8&list=PL613dYIGMXoZBtZhbyiBqb0QtgK6oJbpm&index=1)
+
+[github](https://github.com/oxford-cs-deepnlp-2017/lectures)
+
 ## Practical Deep Learning For Coders, Part 1 & 2
 This course is designed for anyone with at least a year of coding experience, and some memory of high-school math. In the first part, you will learn how to build state of the art models without needing graduate-level math. In the second part, you'll learn the latest developments in deep learning, how to read and implement new academic papers, and how to solve challenging end-to-end problems such as natual language translation.
 

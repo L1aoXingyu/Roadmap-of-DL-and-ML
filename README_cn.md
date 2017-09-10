@@ -11,7 +11,18 @@
 
 # 课程
 
-# 给码农的实用深度学习, part 1 & 2
+## 自然语言处理中的深度学习
+
+这是一门关于自然语言处理的高级课程，这门课由牛津大学的Phil Blunsom和DeepMind的自然预言研究小组共同推出。
+
+[course site](http://www.cs.ox.ac.uk/teaching/courses/2016-2017/dl/)
+
+[video list](https://www.youtube.com/watch?v=RP3tZFcC2e8&list=PL613dYIGMXoZBtZhbyiBqb0QtgK6oJbpm&index=1)
+
+[github](https://github.com/oxford-cs-deepnlp-2017/lectures)
+
+
+## 给码农的实用深度学习, part 1 & 2
 这门课程是为那些至少有一年编程经验和还记得高中数学的人设计的。在第一部分，将会学习如何搭建达到最高水准的模型，这并不需要大学水平的数学内容。在第二部分，将会学习最新的深度学习发展，如何阅读和实现学术论文，以及如何解决具有挑战性的，例如神经机器翻译等端到端的问题。
 
 [part1 course site](http://course.fast.ai/)
