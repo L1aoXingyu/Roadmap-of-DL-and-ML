@@ -14,6 +14,11 @@ I would continue adding some items to this roadmap. If you have something to rec
 
 # course
 
+## cs234: Reinforcement Learning
+This class will provide a solid introduction to the field of reinforcement learning and students will learn about the core challenges and approaches, including generalization and exploration. Through a combination of lectures, and written and coding assignments, students will become well versed in key ideas and techniques for RL.
+
+[course site](http://web.stanford.edu/class/cs234/index.html)
+
 ## Deep Learning for Natural Language Processing
 This is an advanced course on natural language processing. This course will be lead by Phil Blunsom and delivered in partnership with the DeepMind Natural Language Research Group. 
 
