@@ -11,6 +11,16 @@
 
 # 课程
 
+## STATS 385(深度学习中的理论)
+
+深度学习最近取得了巨大的成功，这主要源于经验主意。但是智能总是希望能够理论地解释这些重要的改变。在这门课中，我们会寻求建立一个深度学习的理论框架作为最后的结果。
+
+[course site](https://stats385.github.io/)
+
+[video site](https://www.researchgate.net/project/Theories-of-Deep-Learning)
+
+[bilibili](https://www.bilibili.com/video/av16136625/)
+
 ## cs234: 增强学习
 这门课程将会对增强学习领域提供坚实的介绍，学生能够学会核心的挑战和技巧方法。通过教程的学习和作业的代码练习，学习者能够了解到增强学习领域的技巧和核心思想。
 

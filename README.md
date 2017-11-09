@@ -14,6 +14,16 @@ I would continue adding some items to this roadmap. If you have something to rec
 
 # course
 
+## STATS 385(Theories of Deep Learning)
+
+The spectacular recent successes of deep learning are purely empirical. Nevertheless intellectuals always try to explain important developments theoretically. In this literature course we will seek to build theoretical frameworks deriving deep networks as consequences. 
+
+[course site](https://stats385.github.io/)
+
+[video site](https://www.researchgate.net/project/Theories-of-Deep-Learning)
+
+[bilibili](https://www.bilibili.com/video/av16136625/)
+
 ## cs234: Reinforcement Learning
 This class will provide a solid introduction to the field of reinforcement learning and students will learn about the core challenges and approaches, including generalization and exploration. Through a combination of lectures, and written and coding assignments, students will become well versed in key ideas and techniques for RL.
 
