@@ -158,8 +158,11 @@ CMU教授 Eric Xing 的概率图模型介绍课程。
 
 # 书
 
-## Deep Learning with Python (Francois Chollet)
+## 用 Pyhon 做深度学习 (Francois Chollet)
 - [github](https://github.com/fchollet/deep-learning-with-python-notebooks)
 
-## Hands-On Machine Learning with Scikit-Learn & TensorFlow
+## 用 Sciki-Learn 和 TensorFlow 动手实践深度学习
 - [github](https://github.com/ageron/handson-ml)
+
+## 模式识别与机器学习
+- [github](https://github.com/ctgk/PRML)

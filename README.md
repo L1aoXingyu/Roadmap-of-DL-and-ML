@@ -162,3 +162,6 @@ This course was taught by one of MXNet authors Tianqi Chen, and it is worth lear
 
 ## Hands-On Machine Learning with Scikit-Learn & TensorFlow
 - [github](https://github.com/ageron/handson-ml)
+
+## Pattern Recognition and Machine Learning
+- [github](https://github.com/ctgk/PRML)
